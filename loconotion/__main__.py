@@ -5,6 +5,7 @@ import urllib.parse
 import argparse
 from pathlib import Path
 
+logging.getLogger().setLevel(logging.DEBUG)
 log = logging.getLogger("loconotion")
 
 try:
