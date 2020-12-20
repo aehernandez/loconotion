@@ -4,6 +4,7 @@ import logging
 import urllib.parse
 import argparse
 from pathlib import Path
+import chromedriver_binary
 
 log = logging.getLogger("loconotion")
 
