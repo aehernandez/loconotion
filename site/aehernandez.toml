@@ -25,6 +25,9 @@ theme = "dark"
   [[site.meta]]
   name = "description"
   content = "Technology and Tabletop Enthusiast"
+  [[site.meta]]
+  name = "twitter:site"
+  content = "@alainalign"
 
   ## Custom Fonts ##
   # you can specify the name of a google font to use on the site - use the font embed name

@@ -387,6 +387,9 @@ class Parser:
             log.debug(f"Adding meta tag {str(tag)}")
             soup.head.append(tag)
 
+        soup.head.append(soup.new_tag("meta", name="twitter:title", title=soup.head.title.string))
+        soup.head.append(soup.new_tag("meta", name="og:title", title=soup.head.title.string))
+
         # process images & emojis
         cache_images = True
         for img in soup.findAll("img"):
