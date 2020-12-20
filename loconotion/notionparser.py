@@ -356,7 +356,6 @@ class Parser:
         # clean up the default notion meta tags
         for tag in [
             "description",
-            "twitter:card",
             "twitter:site",
             "twitter:title",
             "twitter:description",
