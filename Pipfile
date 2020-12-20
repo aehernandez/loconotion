@@ -16,6 +16,7 @@ selenium = "==3.141.0"
 soupsieve = "==1.9.6"
 toml = "==0.10.1"
 urllib3 = "==1.25.9"
+chromedriver-binary = "*"
 
 [dev-packages]
 
